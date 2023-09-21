@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helper_classes.TypesFragment1">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/image5"
+                android:foregroundTint="#5EFFFFFF"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/image5"
+                tools:src="@drawable/image5" />
+
+            <TextView
+                android:id="@+id/black_type_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C1FFFFFF"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:layout_marginTop="200dp"
+                android:text="@string/black_type"
+                android:textSize="35sp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/black_type_title"
+                android:background="#C1FFFFFF"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/black_type_description"
+                android:textSize="22dp"
+                android:paddingLeft="15dp"/>
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StylishSloth</string>
+    <string name="service_name">StylishSloth</string>
+    <string name="service_name2">Stylish\nSloth</string>
+    <string name="footnote_before_next_step">Вы сможете в любой момент внести изменения в подписку или отменить её.</string>
+    <string name="specify_sizes_subtitle">Чтобы перейти к следующему этапу оформления, вам нужно указать следующие параметры:</string>
+    <string name="service_description1">Ежемесячно по подписке приходят вещи, которые остаются с вами <b>навсегда.</b></string>
+    <string name="service_description2">В подписке приходит повседневная одежда, которая актуальна <b>всегда.</b></string>
+    <string name="description_convenience"> <b>Это удобно:</b> не нужно тратить время на походы по магазинам, чтобы выбрать одежду.</string>
+    <string name="service_description3">Не нужно тратить время на походы по магазинам, чтобы выбрать одежду.</string>
+    <string name="black_type">Черная</string>
+    <string name="base_type">Базовая</string>
+    <string name="all_inclusive_type">Всё включено</string>
+    <string name="black_type_description">В посылках могут быть:\n футболки\n худи\n свитшоты\n шорты\n штаны\n лонгсливы\n <b><u>черного цвета</u></b> </string>
+    <string name="base_type_description"><b>В посылках могут быть:</b>\n футболки\n худи\n свитшоты\n  шорты\n  штаны\n  лонгсливы\n<b><u> черного, серого, белого и нейтрального цвета</u></b></string>
+    <string name="main_description"><b>Подписка\n</b> на базовые вещи</string>
+    <string-array name="cats">
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Рыжик</item>
+        <item>Васька</item>
+    </string-array>
+</resources>

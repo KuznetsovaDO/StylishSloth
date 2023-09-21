@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81720861971",
+    "project_id": "stylishsloth-ba8ee",
+    "storage_bucket": "stylishsloth-ba8ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81720861971:android:c0b2be36d6ab57a75c66e6",
+        "android_client_info": {
+          "package_name": "com.example.stylishsloth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81720861971-kjibc34gv7j8qnks2vc9paqmgn5pq3mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTBJP7sFcb6_MaVDcvMpu3P2kiBl0jzk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81720861971-kjibc34gv7j8qnks2vc9paqmgn5pq3mi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

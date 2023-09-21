@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white"
+    android:background="@color/white"
+    android:padding="15dp"
+    app:cardElevation="10dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/subscribeType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Базовая подписка"
+            android:textSize="22sp"
+            android:layout_margin="7dp"/>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/topSizeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер верха: XS"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/pantsSizeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер низа: XS"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/shoesSizeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер обуви: 37"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:layout_margin="7dp"/>
+
+        <TextView
+            android:id="@+id/adressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="адрес"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:layout_margin="7dp"/>
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Статус: в обработке"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="16sp"
+            android:layout_margin="7dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/changeSubscriptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            app:cornerRadius="30dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Изменить"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@color/black"
+            android:layout_margin="7dp"/>
+
+        <Button
+            android:id="@+id/deleteSubscriptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Удалить"
+            android:layout_margin="7dp"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>
